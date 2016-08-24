@@ -1,0 +1,112 @@
+{
+	"icons": [
+		{
+			"name": "arrow-down"
+		},
+		{
+			"name": "arrow-left"
+		},
+		{
+			"name": "arrow-right"
+		},
+		{
+			"name": "arrow-up"
+		},
+		{
+			"name": "arrows-left-right"
+		},
+		{
+			"name": "arrows-up-down"
+		},
+		{
+			"name": "book"
+		},
+		{
+			"name": "cross"
+		},
+		{
+			"name": "gift"
+		},
+		{
+			"name": "grid"
+		},
+		{
+			"name": "hamburger"
+		},
+		{
+			"name": "ipad"
+		},
+		{
+			"name": "link"
+		},
+		{
+			"name": "list"
+		},
+		{
+			"name": "lock"
+		},
+		{
+			"name": "mail"
+		},
+		{
+			"name": "minus"
+		},
+		{
+			"name": "more"
+		},
+		{
+			"name": "newspaper"
+		},
+		{
+			"name": "notifications"
+		},
+		{
+			"name": "pause"
+		},
+		{
+			"name": "phone"
+		},
+		{
+			"name": "play"
+		},
+		{
+			"name": "plus"
+		},
+		{
+			"name": "print"
+		},
+		{
+			"name": "search"
+		},
+		{
+			"name": "settings"
+		},
+		{
+			"name": "share"
+		},
+		{
+			"name": "speech-left"
+		},
+		{
+			"name": "speech-right"
+		},
+		{
+			"name": "speech"
+		},
+		{
+			"name": "stop"
+		},
+		{
+			"name": "tick"
+		},
+		{
+			"name": "user"
+		},
+		{
+			"name": "users"
+		},
+		{
+			"name": "warning"
+		}
+	]
+}
