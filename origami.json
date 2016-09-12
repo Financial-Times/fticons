@@ -1,17 +1,7 @@
 {
     "description": "Financial Times icons",
-    "origamiType": "module",
+    "origamiType": "imagesets",
     "origamiVersion": 1,
-    "support": "https://github.com/Financial-Times/fticons/issues",
+    "support": "https://github.com/Financial-Times/fticon/issues",
     "supportStatus": "active",
-    "demos": [
-        {
-            "name": "all-icons",
-            "template": "demos/src/demo.mustache",
-            "sass": "demos/src/demo.scss",
-            "data": "demos/src/data.json",
-            "expanded": true,
-            "description": "Set of all icons"
-        }
-    ]
 }

@@ -14,13 +14,13 @@ const iconNames = fs.readdirSync('svg').filter((file) => {
 	return file.slice(0, -4);
 });
 
-gulp.task('demoConfig', () => {
+gulp.task('listImages', () => {
 	const icons = iconNames.map((file) => {
 		return { name: file };
 	});
 
 	// Write the list of icons found in /svg to the data.json file.
-	fs.writeFileSync('demos/src/data.json', JSON.stringify({ icons: icons }, null, '\t'), { encoding: 'utf-8' });
+	fs.writeFileSync('imageList.json', JSON.stringify({ icons: icons }, null, '\t'), { encoding: 'utf-8' });
 });
 
-gulp.task('default', ['demoConfig']);
+gulp.task('default', ['listImages']);
