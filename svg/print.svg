@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024"><path d="M408 592h208v32H408zM408 656h128v32H408z"/><path d="M736 384V256H288v128h-32v256h80v128h289l63-64v-64h80V384h-32zm-368-96h288v92H368v-92zm240 448v-48h48l-48 48zm0-80h-32v80H368V560h288v96h-48z"/><circle fill="#FFF" cx="688" cy="456" r="24"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="UPDATED_SQUARE_compound" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+<path id="print_3_" d="M27,16l0-6H13v6h-3v10h3l0,4h14l0-4h3V16H27z M25,28H15v-5h10V28z M15,16v-4h10v4H15z M27,20
+	c-0.6,0-1-0.4-1-1c0-0.6,0.4-1,1-1s1,0.4,1,1C28,19.6,27.6,20,27,20z"/>
+</svg>

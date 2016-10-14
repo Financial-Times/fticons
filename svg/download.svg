@@ -5,5 +5,5 @@
 <style type="text/css">
 	.st0{fill-rule:evenodd;clip-rule:evenodd;}
 </style>
-<polygon points="17.9,14.3 16.5,15.8 20.7,20 16.5,24.2 17.9,25.7 23.5,20 "/>
+<path d="M20,26l-5.7-5.7l1.4-1.4l3.2,3.2V10h2v12.2l3.2-3.2l1.4,1.4L20,26z M12,28v2h16v-2H12z"/>
 </svg>
