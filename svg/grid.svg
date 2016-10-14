@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="UPDATED_SQUARE_compound" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;}
-</style>
-<path id="grid_2_" d="M12,12h6v6h-6V12z M12,27h6v-6h-6V27z M21,12v6h6v-6H21z M21,27h6v-6h-6V27z"/>
-</svg>
+<svg id="UPDATED_SQUARE_compound" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><style>.st0{fill-rule:evenodd;clip-rule:evenodd}</style><path id="grid_2_" d="M12 12h6v6h-6v-6zm0 15h6v-6h-6v6zm9-15v6h6v-6h-6zm0 15h6v-6h-6v6z"/></svg>
