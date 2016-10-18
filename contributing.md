@@ -13,8 +13,11 @@ If you want to add or update an icon, please open a pull request, making sure th
 1. icons should be suitable for reuse in more than 1 application
 1. icons must meet a need that is not already met by a pre-existing icon
 1. icons must be square
-1. icons must have at least 25% padding on all sides
-1. icons should align to a 40x40 pixel grid
+1. icons should align to a 40x40 pixel grid, with 10px padding on each side
+1. icons should be a solid shape rather than outlines where possible
+1. icons should have a minimum line thickness of 2px (including negative space thickness)
+1. icons should have square rather than rounded corners where suitable
+
 
 ### Technical:
 
