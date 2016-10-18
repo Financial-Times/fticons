@@ -1,6 +1,8 @@
 # Icon set for FT
 This is the (new) icon set for FT websites. It replaces the assets in o-icons.
 
+The icons have been designed to work best at 40px. At this size they align precisely with the pixel grid and do not appear blurry.
+
 ## Index
 - [Migrating from o-icons assets](#migrating-from-o-icons-assets)
 - [What happened to o-icons](#what-happened-to-o-icons)
@@ -45,6 +47,11 @@ The following icons no longer exist:
 - `list`
 - `user`
 - `users`
+
+## Creating or modifying new icons
+
+Please check out our [contributing guide](https://github.com/Financial-Times/o-icons/blob/master/contributing.md) for design and development guidelines for adding or modifying icons.
+
 
 ## What happened to o-icons
 [o-icons](https://github.com/Financial-Times/o-icons) still exists, and provides Sass mixins to use icons with. In order to properly version the icon set we've moved it to it's own repo (this one). This means we can do major releases of o-icons Sass without needing to bump the icon set (which can be accessed independently of o-icons via the image service.)
