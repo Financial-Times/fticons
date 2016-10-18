@@ -56,6 +56,23 @@ Please check out our [contributing guide](https://github.com/Financial-Times/o-i
 ## What happened to o-icons
 [o-icons](https://github.com/Financial-Times/o-icons) still exists, and provides Sass mixins to use icons with. In order to properly version the icon set we've moved it to it's own repo (this one). This means we can do major releases of o-icons Sass without needing to bump the icon set (which can be accessed independently of o-icons via the image service.)
 
+
+## SVG icons GOTCHAs
+
+
+### My icons are blurry!
+
+SVG icons will be blurry at small sizes. To get the crispest icons the SVG needs map precisely to a pixel grid. We use a 40px grid for icons. Drawing your icons on a 40px grid will make your icons crisp at 40px, but they will still be slightly fuzzy if used at, say, 30px.
+
+
+### I'm exporting my icons at 40px and they should work but they're still fuzzy!
+
+Sometimes sketch will export icons with rounding errors, so if you think you're exporting them on the correct grid and they're still blurry, open the source and look if the path points are values like 372.00000001. The fix for this is to either:
+- not use sketch
+- hand edit your SVGs to remove these errors
+
+
+
 ----
 
 ## Licence

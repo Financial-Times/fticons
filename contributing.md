@@ -18,7 +18,6 @@ If you want to add or update an icon, please open a pull request, making sure th
 1. icons should have a minimum line thickness of 2px (including negative space thickness)
 1. icons should have square rather than rounded corners where suitable
 
-
 ### Technical:
 
 1. icons must be SVG v1.1
@@ -35,7 +34,6 @@ If you want to add or update an icon, please open a pull request, making sure th
   - end with .svg
   -- **Good**: columnists.svg, back-arrow.svg
   -- **Bad**: RightArrow.svg, linked_in.svg, yahoo!.svg
-
 
 ## How to add a new icon
 
