@@ -20,18 +20,18 @@ If you want to add or update an icon, please open a pull request, making sure th
 
 ### Technical:
 
-1. icons must be SVG v1.1
-1. icons should have a bounding box of 1024. This is because of a quirk with the image service v1, whereby a conversion from SVG to PNG will be very blurry if the _source_ SVG has a small viewBox.
-1. icons must not contain any ClipPaths. This is because the conversion of SVG to PNG does not work if ClipPaths are present.
-1. icons must have been run through an SVG compression service (such as [SVGOMG](https://jakearchibald.github.io/svgomg/))
-1. icons must have been tested with the [Responsive Image Service](https://financial-times.github.io/responsive-image-proxy-helper/)'s SVG -> PNG conversion. [How do I do this?](#how-to-test-an-icon-with-the-image-service)
-1. icons must have been tested with the image service's tinting option.
+1. Icons must be SVG v1.1
+1. Icons should have a bounding box of 1024. This is because of a quirk with both versions of the Image Service, whereby a conversion from SVG to PNG will be very blurry if the _source_ SVG has a small viewBox.
+1. Icons must not contain any ClipPaths. This is because the conversion of SVG to PNG in v1 of the Image Service does not work if ClipPaths are present.
+1. Icons must have been run through an SVG compression service (such as [SVGOMG](https://jakearchibald.github.io/svgomg/))
+1. Icons must have been tested with the [Responsive Image Service](https://financial-times.github.io/responsive-image-proxy-helper/)'s SVG -> PNG conversion. [How do I do this?](#how-to-test-an-icon-with-the-image-service)
+1. Icons must have been tested with the Image Service's tinting option. [How do I do this?](#how-to-test-an-icon-with-the-image-service)
 
 ### Naming conventions:
 
-  - all lower case
-  - contain only letters, numbers and hyphens (no spaces)
-  - end with .svg
+  - All lower case
+  - Contain only letters, numbers and hyphens (no spaces)
+  - End with .svg
   -- **Good**: columnists.svg, back-arrow.svg
   -- **Bad**: RightArrow.svg, linked_in.svg, yahoo!.svg
 
@@ -41,9 +41,8 @@ If your icon meets the design and technical criteria please follow the following
 
 1. Clone the repository and install dependencies:
 
-		git clone https://github.com/Financial-Times/o-icons.git
+		git clone https://github.com/Financial-Times/fticons.git
 		cd fticons
-		obt install
 
 1. Add or edit an SVG file to the `svg` folder.
 1. Rebuild the imageList.json so people can see the demos over on http://registry.origami.ft.com/components/fticons. You will need gulp to be installed to do this, then you can run:
@@ -52,12 +51,24 @@ If your icon meets the design and technical criteria please follow the following
 
 ## Removing an icon
 
-A lot of people use o-icons in many different ways. To remove an icon completely from o-icons, please [raise an issue](http://github.com/financial-times/o-icons/issues) so that the Origami team can manage the deprecation process.
+A lot of people use fticons in different ways. To remove an icon completely from fticons, please [raise an issue](http://github.com/financial-times/o-icons/issues) so that the Origami team can manage the deprecation process.
 
 ## How to test an icon with the Image Service
 
-The Image Service provides the ability to convert an SVG to a PNG. This is useful as a fallback for browsers that don't support SVGs.
+The Image Service has some quirks, so new SVG icons should be tested with it before shipping.
+While v1 and v2 of the Image Service are running concurrently, you should test with both. The following requests cover all known quirks with SVGs.
 
-The Image Service doesn't support clipPaths, so any SVG that has a clipPath in it may not render correctly. To check if your SVG works, upload it somewhere (eg dropbox, or gh-pages) and then run its public url through the Image Service with `format=png` as a parameter. ie:
+### Testing PNG conversion
 
-`https://image.webservices.ft.com/v1/images/raw/{http://path-to-image.svg}?source=test&format=png`
+- v1: `https://image.webservices.ft.com/v1/images/raw/{http://path-to-image.svg}?source=test&format=png`
+- v2: `https://www.ft.com/__origami/service/image/v2/images/raw/{http://path-to-image.svg}?source=test&format=png`
+
+### Testing PNG + resizing
+
+- v1: `https://image.webservices.ft.com/v1/images/raw/{http://path-to-image.svg}?source=test&format=png&width=400`
+- v2: `https://www.ft.com/__origami/service/image/v2/images/raw/{http://path-to-image.svg}?source=test&format=png&width=400`
+
+### Testing tinting
+
+- v1: `https://image.webservices.ft.com/v1/images/raw/{http://path-to-image.svg}?source=test&tint=00ff00,00ff00`
+- v2: `https://www.ft.com/__origami/service/image/v2/images/raw/{http://path-to-image.svg}?source=test&tint=00ff00,00ff00`

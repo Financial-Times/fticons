@@ -75,6 +75,11 @@ Sometimes sketch will export icons with rounding errors, so if you think you're 
 
 This will happen if the source SVG is smaller than the size you're converting to. This is because the Image Service converts the format first and then resizes, resulting in blurriness.
 The solution is to make sure your source SVGs have a width and height bigger than the size they're likely to be used at.
+
+### My icon is not converting to a PNG properly
+
+If your icon has a clipPath in it, then with v1 of the Image Service, it may not render properly. Usuallt it will look like the clipPath isn't there. To fix this you'll need to redraw your icon without the clipPath.
+
 ----
 
 ## Licence
