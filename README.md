@@ -1,7 +1,7 @@
 # Icon set for FT
 This is the (new) icon set for FT websites. It replaces the assets in o-icons.
 
-The icons have been designed to work best at 40px. At this size they align precisely with the pixel grid and do not appear blurry on non-retina screens.
+The icons have been designed to work best at 40px. At this size they align precisely with the pixel grid and do not appear blurry on screens with a DPR of 1 (non-retina screens).
 
 ## Index
 - [Migrating from o-icons assets](#migrating-from-o-icons-assets)
@@ -54,7 +54,8 @@ Please check out our [contributing guide](https://github.com/Financial-Times/o-i
 
 
 ## What happened to o-icons
-[o-icons](https://github.com/Financial-Times/o-icons) still exists, and provides Sass mixins to use icons with. In order to properly version the icon set we've moved it to it's own repo (this one). This means we can do major releases of o-icons Sass without needing to bump the icon set (which can be accessed independently of o-icons via the image service.)
+
+[o-icons](https://github.com/Financial-Times/o-icons) still exists, and provides Sass mixins to use icons with. In order to properly version the icon set we've moved it to it's own repo (this one). This means we can do major releases of o-icons Sass without needing to bump the icon set (which can be accessed independently of o-icons via the [Image Service](https://www.ft.com/__origami/service/image/v2/).)
 
 
 ## SVG icons GOTCHAs
@@ -62,8 +63,7 @@ Please check out our [contributing guide](https://github.com/Financial-Times/o-i
 
 ### My icons are blurry!
 
-SVG icons will be blurry at small sizes. To get the crispest icons the SVG needs map precisely to a pixel grid. We use a 40px grid for icons. Drawing your icons on a 40px grid will make your icons crisp at 40px, but they will still be slightly fuzzy if used at, say, 30px.
-
+All of our icons are vectors. At small sizes, the process of converting a vector to a bitmap (rasterization) will leave you with with blurry icons. All of the icons in fticons have been drawn to map precisely to a 40x40px grid. If you need to use these at a smaller or larger size, they may appear fuzzy as the browser tries to anti-alias them.
 
 ### I'm exporting my icons at 40px and they should work but they're still fuzzy!
 
@@ -71,8 +71,10 @@ Sometimes sketch will export icons with rounding errors, so if you think you're 
 - not use sketch
 - hand edit your SVGs to remove these errors
 
+### When I convert my icons to PNG, they're blurry!
 
-
+This will happen if the source SVG is smaller than the size you're converting to. This is because the Image Service converts the format first and then resizes, resulting in blurriness.
+The solution is to make sure your source SVGs have a width and height bigger than the size they're likely to be used at.
 ----
 
 ## Licence
