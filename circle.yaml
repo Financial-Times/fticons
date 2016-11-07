@@ -1,0 +1,8 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - node ./buildImageList.js
+      - git add .
+      - git commit -am 'Updating imageList.json [ci skip]'
+      - git push orgin master
