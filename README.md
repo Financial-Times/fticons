@@ -1,7 +1,7 @@
 # Icon set for FT
 This is the (new) icon set for FT websites. It replaces the assets in o-icons.
 
-The icons have been designed to work best at 40px. At this size they align precisely with the pixel grid and do not appear blurry.
+The icons have been designed to work best at 40px. At this size they align precisely with the pixel grid and do not appear blurry on non-retina screens.
 
 ## Index
 - [Migrating from o-icons assets](#migrating-from-o-icons-assets)
