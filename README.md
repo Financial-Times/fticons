@@ -1,4 +1,4 @@
-[![Build status](https://img.shields.io/circleci/project/Financial-Times/fticons.svg)][ci]
+[![Build status](https://img.shields.io/circleci/project/Financial-Times/fticons.svg)](https://circleci.com/gh/Financial-Times/fticons)
 
 # Icon set for FT
 This is the (new) icon set for FT websites. It replaces the assets in o-icons.
