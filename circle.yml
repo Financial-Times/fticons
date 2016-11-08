@@ -7,7 +7,7 @@ deployment:
       - git config --global user.name "origamiserviceuser [bot]"
       - git add imageList.json
       - git commit -am 'Updating imageList.json [ci skip]'
-      - git push orgin master
+      - git push origin master
 test:
   override:
     - echo "no tests"
