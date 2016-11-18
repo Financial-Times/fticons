@@ -1,9 +1,9 @@
 [![Build status](https://img.shields.io/circleci/project/Financial-Times/fticons.svg)](https://circleci.com/gh/Financial-Times/fticons)
 
 # Icon set for FT
-This is the (new) icon set for FT websites. It replaces the assets in o-icons.
+This is the (new) icon set for FT websites. It replaces the assets in [o-icons](http://github.com/financial-times/o-icons).
 
-The icons have been designed to work best at 40px. At this size they align precisely with the pixel grid and do not appear blurry on screens with a DPR of 1 (non-retina screens).
+The icons have been designed to work best at 40px width and height. At this size they align precisely with the pixel grid and do not appear blurry on screens with a DPR of 1 (non-retina screens).
 
 ## Index
 - [Usage](#usage)
@@ -74,19 +74,15 @@ The following icons no longer exist:
 - `pullquote` to `speech-left`
 - `speechbubble` to `speech`
 
-### New!
-- `arrows-left-right`
-- `book`
-- `pause`
-- `stop`
-- `phone`
-- `list`
-- `user`
-- `users`
-
 ## What happened to o-icons
 
 [o-icons](https://github.com/Financial-Times/o-icons) still exists, and provides Sass mixins to use icons with. In order to properly version the icon set we've moved it to it's own repo (this one). This means we can do major releases of o-icons Sass without needing to bump the icon set (which can be accessed independently of o-icons via the [Image Service](https://www.ft.com/__origami/service/image/v2/).)
+
+----
+
+## Contact
+
+If you have any questions or comments about this component, or need help using it, please either [raise an issue](https://github.com/Financial-Times/o-component-boilerplate/issues), visit [#ft-origami](https://financialtimes.slack.com/messages/ft-origami/) or email [Origami Support](mailto:origami-support@ft.com).
 
 ----
 
