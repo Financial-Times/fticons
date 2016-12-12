@@ -88,6 +88,9 @@
 			"name": "print"
 		},
 		{
+			"name": "refresh"
+		},
+		{
 			"name": "search"
 		},
 		{
