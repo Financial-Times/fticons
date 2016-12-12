@@ -76,7 +76,7 @@ The following icons no longer exist:
 
 ## What happened to o-icons
 
-[o-icons](https://github.com/Financial-Times/o-icons) still exists, and provides Sass mixins to use icons with. In order to properly version the icon set we've moved it to it's own repo (this one). This means we can do major releases of o-icons Sass without needing to bump the icon set (which can be accessed independently of o-icons via the [Image Service](https://www.ft.com/__origami/service/image/v2/).)
+[o-icons](https://github.com/Financial-Times/o-icons) still exists, and provides Sass mixins to use icons with. In order to properly version the icon set we've moved it to it's own repo ([this one](https://github.com/Financial-Times/o-icons)). This means we can do major releases of o-icons Sass without needing to bump the icon set (which can be accessed independently of o-icons via the [Image Service](https://www.ft.com/__origami/service/image/v2/).)
 
 ----
 
