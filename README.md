@@ -20,7 +20,7 @@ You can use fticons in the following ways:
 
 ## Creating or modifying new icons
 
-Please check out our [contributing guide](https://github.com/Financial-Times/o-icons/blob/master/contributing.md) for design and development guidelines for adding or modifying icons.
+Please check out our [contributing guide](https://github.com/Financial-Times/fticons/blob/master/contributing.md) for design and development guidelines for adding or modifying icons.
 
 ## SVG icons GOTCHAs
 
