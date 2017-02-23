@@ -1,1 +1,226 @@
-{}
+{
+	"sourceDirectory": "svg",
+	"scheme": "fticon",
+	"images": [
+		{
+			"name": "arrow-down",
+			"extension": "svg",
+			"path": "svg/arrow-down.svg"
+		},
+		{
+			"name": "arrow-left",
+			"extension": "svg",
+			"path": "svg/arrow-left.svg"
+		},
+		{
+			"name": "arrow-right",
+			"extension": "svg",
+			"path": "svg/arrow-right.svg"
+		},
+		{
+			"name": "arrow-up",
+			"extension": "svg",
+			"path": "svg/arrow-up.svg"
+		},
+		{
+			"name": "arrows-left-right",
+			"extension": "svg",
+			"path": "svg/arrows-left-right.svg"
+		},
+		{
+			"name": "arrows-up-down",
+			"extension": "svg",
+			"path": "svg/arrows-up-down.svg"
+		},
+		{
+			"name": "book",
+			"extension": "svg",
+			"path": "svg/book.svg"
+		},
+		{
+			"name": "corporate",
+			"extension": "svg",
+			"path": "svg/corporate.svg"
+		},
+		{
+			"name": "cross",
+			"extension": "svg",
+			"path": "svg/cross.svg"
+		},
+		{
+			"name": "download",
+			"extension": "svg",
+			"path": "svg/download.svg"
+		},
+		{
+			"name": "gift",
+			"extension": "svg",
+			"path": "svg/gift.svg"
+		},
+		{
+			"name": "grid",
+			"extension": "svg",
+			"path": "svg/grid.svg"
+		},
+		{
+			"name": "hamburger",
+			"extension": "svg",
+			"path": "svg/hamburger.svg"
+		},
+		{
+			"name": "ipad",
+			"extension": "svg",
+			"path": "svg/ipad.svg"
+		},
+		{
+			"name": "link",
+			"extension": "svg",
+			"path": "svg/link.svg"
+		},
+		{
+			"name": "list",
+			"extension": "svg",
+			"path": "svg/list.svg"
+		},
+		{
+			"name": "lock",
+			"extension": "svg",
+			"path": "svg/lock.svg"
+		},
+		{
+			"name": "mail",
+			"extension": "svg",
+			"path": "svg/mail.svg"
+		},
+		{
+			"name": "minus",
+			"extension": "svg",
+			"path": "svg/minus.svg"
+		},
+		{
+			"name": "more",
+			"extension": "svg",
+			"path": "svg/more.svg"
+		},
+		{
+			"name": "newspaper",
+			"extension": "svg",
+			"path": "svg/newspaper.svg"
+		},
+		{
+			"name": "notifications",
+			"extension": "svg",
+			"path": "svg/notifications.svg"
+		},
+		{
+			"name": "outside-page",
+			"extension": "svg",
+			"path": "svg/outside-page.svg"
+		},
+		{
+			"name": "pause",
+			"extension": "svg",
+			"path": "svg/pause.svg"
+		},
+		{
+			"name": "phone",
+			"extension": "svg",
+			"path": "svg/phone.svg"
+		},
+		{
+			"name": "play",
+			"extension": "svg",
+			"path": "svg/play.svg"
+		},
+		{
+			"name": "plus",
+			"extension": "svg",
+			"path": "svg/plus.svg"
+		},
+		{
+			"name": "podcast",
+			"extension": "svg",
+			"path": "svg/podcast.svg"
+		},
+		{
+			"name": "print",
+			"extension": "svg",
+			"path": "svg/print.svg"
+		},
+		{
+			"name": "refresh",
+			"extension": "svg",
+			"path": "svg/refresh.svg"
+		},
+		{
+			"name": "search",
+			"extension": "svg",
+			"path": "svg/search.svg"
+		},
+		{
+			"name": "series",
+			"extension": "svg",
+			"path": "svg/series.svg"
+		},
+		{
+			"name": "settings",
+			"extension": "svg",
+			"path": "svg/settings.svg"
+		},
+		{
+			"name": "share",
+			"extension": "svg",
+			"path": "svg/share.svg"
+		},
+		{
+			"name": "speech-left",
+			"extension": "svg",
+			"path": "svg/speech-left.svg"
+		},
+		{
+			"name": "speech-right",
+			"extension": "svg",
+			"path": "svg/speech-right.svg"
+		},
+		{
+			"name": "speech",
+			"extension": "svg",
+			"path": "svg/speech.svg"
+		},
+		{
+			"name": "stop",
+			"extension": "svg",
+			"path": "svg/stop.svg"
+		},
+		{
+			"name": "tick",
+			"extension": "svg",
+			"path": "svg/tick.svg"
+		},
+		{
+			"name": "upload",
+			"extension": "svg",
+			"path": "svg/upload.svg"
+		},
+		{
+			"name": "user",
+			"extension": "svg",
+			"path": "svg/user.svg"
+		},
+		{
+			"name": "users",
+			"extension": "svg",
+			"path": "svg/users.svg"
+		},
+		{
+			"name": "warning",
+			"extension": "svg",
+			"path": "svg/warning.svg"
+		},
+		{
+			"name": "written-text",
+			"extension": "svg",
+			"path": "svg/written-text.svg"
+		}
+	]
+}
