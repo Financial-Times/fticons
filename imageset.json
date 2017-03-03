@@ -53,6 +53,11 @@
 			"path": "svg/download.svg"
 		},
 		{
+			"name": "edit",
+			"extension": "svg",
+			"path": "svg/edit.svg"
+		},
+		{
 			"name": "gift",
 			"extension": "svg",
 			"path": "svg/gift.svg"
