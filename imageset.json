@@ -38,6 +38,11 @@
 			"path": "svg/book.svg"
 		},
 		{
+			"name": "circle",
+			"extension": "svg",
+			"path": "svg/circle.svg"
+		},
+		{
 			"name": "corporate",
 			"extension": "svg",
 			"path": "svg/corporate.svg"
