@@ -16,7 +16,7 @@
 |Icons must be SVG v1.1| |
 |Icons must not contain any ClipPaths. This is because the conversion of SVG to PNG in v1 of the Image Service does not work if ClipPaths are present.| |
 |Icons must have been run through an SVG compression service (such as SVGOMG)| |
-|Icons must have been tested with the Responsive Image Service's SVG -> PNG conversion. How do I do this?| |
+|Icons must have been tested with the Responsive Image Service's SVG -> PNG conversion. | |
 |Icons must have been tested with the Image Service's tinting option. How do I do this?| |
 |Icons should have a bounding box of 1024. This is because of a quirk with both versions of the Image Service, whereby a conversion from SVG to PNG will be very blurry if the source SVG has a small viewBox.| |
 
