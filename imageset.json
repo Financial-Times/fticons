@@ -38,6 +38,16 @@
 			"path": "svg/book.svg"
 		},
 		{
+			"name": "bookmark",
+			"extension": "svg",
+			"path": "svg/bookmark.svg"
+		},
+		{
+			"name": "bookmark_outline",
+			"extension": "svg",
+			"path": "svg/bookmark_outline.svg"
+		},
+		{
 			"name": "circle",
 			"extension": "svg",
 			"path": "svg/circle.svg"
@@ -206,6 +216,11 @@
 			"name": "tick",
 			"extension": "svg",
 			"path": "svg/tick.svg"
+		},
+		{
+			"name": "trash",
+			"extension": "svg",
+			"path": "svg/trash.svg"
 		},
 		{
 			"name": "upload",
