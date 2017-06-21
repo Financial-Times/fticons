@@ -40,15 +40,23 @@ If you want to add or update an icon, please open a pull request, making sure th
 
 If your icon meets the design and technical criteria please follow the following steps and then open a Pull Request:
 
-1. Clone the repository and install dependencies:
+1. Clone the repository
 
 		git clone https://github.com/Financial-Times/fticons.git
 		cd fticons
 
+1. Create a branch
+		
+		git checkout -b add-new-icon
+		
 1. Add or edit an SVG file to the `svg` folder.
-1. Rebuild the imageList.json so people can see the demos over on http://registry.origami.ft.com/components/fticons. You will need gulp to be installed to do this, then you can run:
+1. Commit your changes
 
-		gulp
+		git add /svg/your-new-icon.svg
+		git commit -m "Added new pathfinder icon"
+		git push origin add-new-icon
+	
+1. Go to Github and open a pull request
 
 ## Removing an icon
 
