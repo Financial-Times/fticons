@@ -22,12 +22,6 @@
 			"name": "book"
 		},
 		{
-			"name": "bookmark"
-		},
-		{
-			"name": "bookmark_outline"
-		},
-		{
 			"name": "circle"
 		},
 		{
@@ -128,9 +122,6 @@
 		},
 		{
 			"name": "tick"
-		},
-		{
-			"name": "trash"
 		},
 		{
 			"name": "upload"
