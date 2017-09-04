@@ -12,23 +12,21 @@
 - [ ] Icons should have a minimum line thickness of 2px (including negative space thickness)
 - [ ] Icons should have square rather than rounded corners where suitable
 - [ ] Icons must be SVG v1.1
-- [ ] Icons must not contain any ClipPaths. This is because the conversion of SVG to PNG in v1 of the Image Service does not work if ClipPaths are present.
 - [ ] Icons must have been run through an SVG compression service (such as SVGOMG)
 - [ ] Icons must have been tested with the Responsive Image Service's SVG -> PNG conversion.
-- [ ] Icons must have been tested with the Image Service's tinting option. How do I do this?
-- [ ] Icons should have a bounding box of 1024. This is because of a quirk with both versions of the Image Service, whereby a conversion from SVG to PNG will be very blurry if the source SVG has a small viewBox.
+- [ ] Icons must have been tested with the Image Service's tinting option.
+- [ ] Icons should have a bounding box of 1024.
 - [ ] Icon names must be made up only of lowecase a-z, or a hyphen
 - [ ] Icon names must include the .svg file extension
 
+---
 
-Testing PNG conversion using Origami Image Service: Completed?
-- [ ] v1
-- [ ] v2
+- [ ] Testing PNG conversion using Origami Image Service
 
-Testing PNG + resizing using Origami Image Service: Completed?
-- [ ] v1
-- [ ] v2
+---
 
-Testing tinting using Origami Image Service: Completed?
-- [ ] v1
-- [ ] v2
+- [ ] Testing PNG + resizing using Origami Image Service
+
+---
+
+- [ ] Testing tinting using Origami Image Service
