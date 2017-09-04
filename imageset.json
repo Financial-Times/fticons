@@ -63,6 +63,11 @@
 			"path": "svg/cross.svg"
 		},
 		{
+			"name": "dollar",
+			"extension": "svg",
+			"path": "svg/dollar.svg"
+		},
+		{
 			"name": "download",
 			"extension": "svg",
 			"path": "svg/download.svg"
