@@ -65,19 +65,16 @@ A lot of people use fticons in different ways. To remove an icon completely from
 ## How to test an icon with the Image Service
 
 The Image Service has some quirks, so new SVG icons should be tested with it before shipping.
-While v1 and v2 of the Image Service are running concurrently, you should test with both. The following requests cover all known quirks with SVGs.
+The following requests cover all known quirks with SVGs.
 
 ### Testing PNG conversion
 
-- v1: `https://image.webservices.ft.com/v1/images/raw/{http://path-to-image.svg}?source=test&format=png`
-- v2: `https://www.ft.com/__origami/service/image/v2/images/raw/{http://path-to-image.svg}?source=test&format=png`
+- `https://www.ft.com/__origami/service/image/v2/images/raw/{http://path-to-image.svg}?source=test&format=png`
 
 ### Testing PNG + resizing
 
-- v1: `https://image.webservices.ft.com/v1/images/raw/{http://path-to-image.svg}?source=test&format=png&width=400`
-- v2: `https://www.ft.com/__origami/service/image/v2/images/raw/{http://path-to-image.svg}?source=test&format=png&width=400`
+- `https://www.ft.com/__origami/service/image/v2/images/raw/{http://path-to-image.svg}?source=test&format=png&width=400`
 
 ### Testing tinting
 
-- v1: `https://image.webservices.ft.com/v1/images/raw/{http://path-to-image.svg}?source=test&tint=00ff00,00ff00`
-- v2: `https://www.ft.com/__origami/service/image/v2/images/raw/{http://path-to-image.svg}?source=test&tint=00ff00`
+- `https://www.ft.com/__origami/service/image/v2/images/raw/{http://path-to-image.svg}?source=test&tint=00ff00`
