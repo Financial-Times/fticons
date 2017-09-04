@@ -21,8 +21,7 @@
 - [ ] Icon names must include the .svg file extension
 
 
-|Testing PNG conversion using Origami Image Service: Completed?
-|---|---|
+Testing PNG conversion using Origami Image Service: Completed?
 - [ ] v1
 - [ ] v2
 
@@ -30,6 +29,6 @@ Testing PNG + resizing using Origami Image Service: Completed?
 - [ ] v1
 - [ ] v2
 
-|Testing tinting using Origami Image Service: Completed?
+Testing tinting using Origami Image Service: Completed?
 - [ ] v1
 - [ ] v2
