@@ -243,6 +243,11 @@
 			"path": "svg/users.svg"
 		},
 		{
+			"name": "video",
+			"extension": "svg",
+			"path": "svg/video.svg"
+		},
+		{
 			"name": "warning",
 			"extension": "svg",
 			"path": "svg/warning.svg"
