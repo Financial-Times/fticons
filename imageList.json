@@ -91,6 +91,9 @@
 			"name": "phone"
 		},
 		{
+			"name": "pin"
+		},
+		{
 			"name": "play"
 		},
 		{
