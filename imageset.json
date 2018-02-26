@@ -129,6 +129,12 @@
 			"hash": "bb452f0976037fee20d1fdc894c8a19fa5baa16bb508565eeb109487650c8dde0e987473e13b16bad6c6028c07755b333815340b14467fb1602a3919ff019f7a"
 		},
 		{
+			"name": "info",
+			"extension": "svg",
+			"path": "svg/info.svg",
+			"hash": "2fcfc7cb1433e57449f9e208905b2fb245b7e45f48af7e49272d17a764986664cf9c8b79d0c5ca1f93cecd3af1e7d20d9c2adc9a3e89a2ceebe6b3ce8c006aab"
+		},
+		{
 			"name": "ipad",
 			"extension": "svg",
 			"path": "svg/ipad.svg",
@@ -216,6 +222,7 @@
 			"name": "pin",
 			"extension": "svg",
 			"path": "svg/pin.svg",
+			"previousHash": "ce9bc2608304e2540f8459bca395326c3692ab22f896391eb033fa65490347f5433477ed9c3f40726a360e9874d5b8cc9adbc64dd0dd69220f8873ef86b1a1a3",
 			"hash": "ce9bc2608304e2540f8459bca395326c3692ab22f896391eb033fa65490347f5433477ed9c3f40726a360e9874d5b8cc9adbc64dd0dd69220f8873ef86b1a1a3"
 		},
 		{
