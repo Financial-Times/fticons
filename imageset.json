@@ -132,6 +132,7 @@
 			"name": "info",
 			"extension": "svg",
 			"path": "svg/info.svg",
+			"previousHash": "2fcfc7cb1433e57449f9e208905b2fb245b7e45f48af7e49272d17a764986664cf9c8b79d0c5ca1f93cecd3af1e7d20d9c2adc9a3e89a2ceebe6b3ce8c006aab",
 			"hash": "2fcfc7cb1433e57449f9e208905b2fb245b7e45f48af7e49272d17a764986664cf9c8b79d0c5ca1f93cecd3af1e7d20d9c2adc9a3e89a2ceebe6b3ce8c006aab"
 		},
 		{
@@ -357,6 +358,12 @@
 			"path": "svg/video.svg",
 			"previousHash": "77fc33616202327c90eed52396bd2d26b0c00c09b3987ee69844e335d08a267d5775c6f4bf1b0a7b80f518d4036fc2e21fbd91a5a97bdd5cd957ce14b5612186",
 			"hash": "77fc33616202327c90eed52396bd2d26b0c00c09b3987ee69844e335d08a267d5775c6f4bf1b0a7b80f518d4036fc2e21fbd91a5a97bdd5cd957ce14b5612186"
+		},
+		{
+			"name": "warning-alt",
+			"extension": "svg",
+			"path": "svg/warning-alt.svg",
+			"hash": "6e4f558b732b8c58440f3bc14d219920719c2c807f0a32db369f4648872b30236d55ca54edf1e3ea5a92b798f8e7a23072d4d1b64f5b670fb7e841ab3a869e41"
 		},
 		{
 			"name": "warning",
