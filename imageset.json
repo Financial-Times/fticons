@@ -108,6 +108,12 @@
 			"hash": "3261f954b055a61201c2b21808a73bbeb772ba9200ac2f9523c6225838267b9b7b1c5245785ceaf6c7318a4fb205517f6d8f2d457b23b15eb7cd42c090e90ef2"
 		},
 		{
+			"name": "first",
+			"extension": "svg",
+			"path": "svg/first.svg",
+			"hash": "0f8e67b38474c349eb1d0c0634cb8bbf1bb06fad0a83deb033deddd0c0618e5893b43f3f72b622f8a012a65269223199555ee000ce6de35acf92ce95d4ea4e5d"
+		},
+		{
 			"name": "gift",
 			"extension": "svg",
 			"path": "svg/gift.svg",
@@ -141,6 +147,12 @@
 			"path": "svg/ipad.svg",
 			"previousHash": "f712a01a7dba58237040aa2d989663d0f1cc03931ee7693a4d25dec59c956a690e43a0c83afdc07588643aa5dbbf11cc60061a930596443195d38e39a92d3fad",
 			"hash": "f712a01a7dba58237040aa2d989663d0f1cc03931ee7693a4d25dec59c956a690e43a0c83afdc07588643aa5dbbf11cc60061a930596443195d38e39a92d3fad"
+		},
+		{
+			"name": "last",
+			"extension": "svg",
+			"path": "svg/last.svg",
+			"hash": "47f3f3f180d0c3bc0247975e76c4f14c01f9237b9b7d40416274736c8a4bdfa378ba0c7480a3770e8fc2b1029c59a0b1f15a316037d45772da22198ccc7808ff"
 		},
 		{
 			"name": "link",
@@ -202,7 +214,7 @@
 			"name": "outside-page",
 			"extension": "svg",
 			"path": "svg/outside-page.svg",
-			"previousHash": "ef396e8d58146eab7da8837069f21e110916d7fb77eef1716e15e112abde50427c031679e2ff842b345cdec8dfbe144898a980e5b41d488c7794ca897e57effd",
+			"previousHash": "f9df3594b5ce86433e5b843d42875ebac9d83f998549617598e56910578b7434c5656eaf32971852c3b959d74b0f93744337c0fcbe1e05826c7eccdd73334ac1",
 			"hash": "f9df3594b5ce86433e5b843d42875ebac9d83f998549617598e56910578b7434c5656eaf32971852c3b959d74b0f93744337c0fcbe1e05826c7eccdd73334ac1"
 		},
 		{
@@ -259,7 +271,7 @@
 			"extension": "svg",
 			"path": "svg/refresh.svg",
 			"previousHash": "8486686a8dc33d2d864cf5c413faa303f17b82d6d5e8795e1b2e95450dbc89faf779ce03dcc422ad91818d2c46e6fb53d20e9cae7bb23ce9a4853850b19726b9",
-			"hash": "8486686a8dc33d2d864cf5c413faa303f17b82d6d5e8795e1b2e95450dbc89faf779ce03dcc422ad91818d2c46e6fb53d20e9cae7bb23ce9a4853850b19726b9"
+			"hash": "1ee35cdb83cf306f2e2d2f9715ba18c75f9f359410c5941fc1d8e7a48e15b2993938412a2a88995edb279e4eeb879d5ab56d9acf8411952bf9476a09ae2ae7b4"
 		},
 		{
 			"name": "search",
