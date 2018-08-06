@@ -111,6 +111,7 @@
 			"name": "first",
 			"extension": "svg",
 			"path": "svg/first.svg",
+			"previousHash": "0f8e67b38474c349eb1d0c0634cb8bbf1bb06fad0a83deb033deddd0c0618e5893b43f3f72b622f8a012a65269223199555ee000ce6de35acf92ce95d4ea4e5d",
 			"hash": "0f8e67b38474c349eb1d0c0634cb8bbf1bb06fad0a83deb033deddd0c0618e5893b43f3f72b622f8a012a65269223199555ee000ce6de35acf92ce95d4ea4e5d"
 		},
 		{
@@ -152,6 +153,7 @@
 			"name": "last",
 			"extension": "svg",
 			"path": "svg/last.svg",
+			"previousHash": "47f3f3f180d0c3bc0247975e76c4f14c01f9237b9b7d40416274736c8a4bdfa378ba0c7480a3770e8fc2b1029c59a0b1f15a316037d45772da22198ccc7808ff",
 			"hash": "47f3f3f180d0c3bc0247975e76c4f14c01f9237b9b7d40416274736c8a4bdfa378ba0c7480a3770e8fc2b1029c59a0b1f15a316037d45772da22198ccc7808ff"
 		},
 		{
@@ -270,7 +272,7 @@
 			"name": "refresh",
 			"extension": "svg",
 			"path": "svg/refresh.svg",
-			"previousHash": "8486686a8dc33d2d864cf5c413faa303f17b82d6d5e8795e1b2e95450dbc89faf779ce03dcc422ad91818d2c46e6fb53d20e9cae7bb23ce9a4853850b19726b9",
+			"previousHash": "1ee35cdb83cf306f2e2d2f9715ba18c75f9f359410c5941fc1d8e7a48e15b2993938412a2a88995edb279e4eeb879d5ab56d9acf8411952bf9476a09ae2ae7b4",
 			"hash": "1ee35cdb83cf306f2e2d2f9715ba18c75f9f359410c5941fc1d8e7a48e15b2993938412a2a88995edb279e4eeb879d5ab56d9acf8411952bf9476a09ae2ae7b4"
 		},
 		{
