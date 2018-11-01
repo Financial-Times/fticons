@@ -1,4 +1,4 @@
-# How to contribute to o-icons
+# How to contribute to fticons
 
 Thank you for your interest in contributing to fticons! As our icons are used by a lot of different applications, we have a few constraints for new ones. If you aren't sure if your new icon meets any of these, please [raise an issue](http://github.com/financial-times/fticons/issues), or ask in the [#ft-origami slack channel](https://financialtimes.slack.com/messages/ft-origami/).
 Thank you!
@@ -29,11 +29,11 @@ If you want to add or update an icon, please open a pull request, making sure th
 
 ### Naming conventions:
 
-  - All lower case
-  - Contain only letters, numbers and hyphens (no spaces)
-  - End with .svg
-  -- **Good**: columnists.svg, back-arrow.svg
-  -- **Bad**: RightArrow.svg, linked_in.svg, yahoo!.svg
+- All lower case
+- Contain only letters, numbers and hyphens (no spaces)
+- End with .svg
+- **Good**: columnists.svg, back-arrow.svg
+- **Bad**: RightArrow.svg, linked_in.svg, yahoo!.svg
 
 ## How to add a new icon
 
