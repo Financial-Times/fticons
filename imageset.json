@@ -206,6 +206,12 @@
 			"hash": "d498e00c69c29b1a8203289e680a9f78a41e467b8d6a61c8d29eb045b370943d9b06043bee48a37070b253c8653936243099903748355aa94597afea0b5a633a"
 		},
 		{
+			"name": "mute",
+			"extension": "svg",
+			"path": "svg/mute.svg",
+			"hash": "3ad5993240d227020cd11733bf4bff510ba9f8961a88e8aa0473026b8e90b53d168eb7580e17dace4228b7ec9480c9315906d6c318222fbfad0221bcfdba8299"
+		},
+		{
 			"name": "newspaper",
 			"extension": "svg",
 			"path": "svg/newspaper.svg",
