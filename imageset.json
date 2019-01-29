@@ -209,7 +209,14 @@
 			"name": "mute",
 			"extension": "svg",
 			"path": "svg/mute.svg",
+			"previousHash": "3ad5993240d227020cd11733bf4bff510ba9f8961a88e8aa0473026b8e90b53d168eb7580e17dace4228b7ec9480c9315906d6c318222fbfad0221bcfdba8299",
 			"hash": "3ad5993240d227020cd11733bf4bff510ba9f8961a88e8aa0473026b8e90b53d168eb7580e17dace4228b7ec9480c9315906d6c318222fbfad0221bcfdba8299"
+		},
+		{
+			"name": "mute_notifications",
+			"extension": "svg",
+			"path": "svg/mute_notifications.svg",
+			"hash": "e65ee1ae5057f12daa4940f77b5c97b99926a99e4c58c917cd1db8c6aa40c9a153abf0a0e853f86c8f0ede5c503b6e27cf29e06dba38d54aa800d46798924eee"
 		},
 		{
 			"name": "newspaper",
