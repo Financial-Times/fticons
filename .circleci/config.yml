@@ -6,13 +6,14 @@ jobs:
   # Ensure that the image set manifest is in place
   manifest:
     docker:
-      - image: circleci/node:10
+      - image: circleci/node:latest
     steps:
       - checkout
-      - run: npx occ 0.0.0
-      - run: npm install
-      - run: git clean -fxd
-      - run: npx @financial-times/origami-image-set-tools build-manifest --scheme ${IMAGESET_SCHEME} --source-directory=${IMAGESET_SOURCE_DIRECTORY}
+      - run: npm ci
+      - *cache_node_modules
+      - run:
+          name: Build the image set manifest
+          command: ./node_modules/.bin/oist build-manifest --scheme ${IMAGESET_SCHEME} --source-directory=${IMAGESET_SOURCE_DIRECTORY}
       - run:
           name: Commit and push the manifest changes
           command: >
@@ -26,19 +27,21 @@ jobs:
   # Publish the image set to S3
   publish:
     docker:
-      - image: circleci/node:10
+      - image: circleci/node:latest
     steps:
       - checkout
+      - run: npm ci
       - run:
           name: Publish to EU bucket
-          command: npx @financial-times/origami-image-set-tools publish-s3 --bucket origami-imageset-data-eu --scheme ${IMAGESET_SCHEME} --source-directory=${IMAGESET_SOURCE_DIRECTORY} --scheme-version $CIRCLE_TAG
+          command: ./node_modules/.bin/oist publish-s3 --bucket origami-imageset-data-eu --scheme ${IMAGESET_SCHEME} --source-directory=${IMAGESET_SOURCE_DIRECTORY} --scheme-version $CIRCLE_TAG
       - run:
           name: Publish to US bucket
-          command: npx @financial-times/origami-image-set-tools publish-s3 --bucket origami-imageset-data-us --scheme ${IMAGESET_SCHEME} --source-directory=${IMAGESET_SOURCE_DIRECTORY} --scheme-version $CIRCLE_TAG
-      - run: git clean -fxd
-      - run: npx occ ${CIRCLE_TAG##v}
-      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > $HOME/.npmrc
-      - run: npm publish --access public
+          command: ./node_modules/.bin/oist publish-s3 --bucket origami-imageset-data-us --scheme ${IMAGESET_SCHEME} --source-directory=${IMAGESET_SOURCE_DIRECTORY} --scheme-version $CIRCLE_TAG
+      - run:
+          name: Authenticate with npm
+          command: echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" > ${HOME}/.npmrc
+      - run: npm version --git-tag-version=false ${CIRCLE_TAG}
+      - run: npm publish --access=public
 
 # Circle workflows
 workflows:
