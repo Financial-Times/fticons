@@ -235,6 +235,13 @@
 			"url": "https://origami-images.ft.com/fticon/v1/more-d498e00c69c29b1a8203289e680a9f78a41e467b8d6a61c8d29eb045b370943d9b06043bee48a37070b253c8653936243099903748355aa94597afea0b5a633a"
 		},
 		{
+			"name": "mute-notifications",
+			"extension": "svg",
+			"path": "svg/mute-notifications.svg",
+			"hash": "e65ee1ae5057f12daa4940f77b5c97b99926a99e4c58c917cd1db8c6aa40c9a153abf0a0e853f86c8f0ede5c503b6e27cf29e06dba38d54aa800d46798924eee",
+			"url": "https://origami-images.ft.com/fticon/v1/mute-notifications-e65ee1ae5057f12daa4940f77b5c97b99926a99e4c58c917cd1db8c6aa40c9a153abf0a0e853f86c8f0ede5c503b6e27cf29e06dba38d54aa800d46798924eee"
+		},
+		{
 			"name": "mute",
 			"extension": "svg",
 			"path": "svg/mute.svg",
@@ -374,6 +381,7 @@
 			"name": "skip-backward-30",
 			"extension": "svg",
 			"path": "svg/skip-backward-30.svg",
+			"previousHash": "1254bba7601a178c4e9c52d2a9d1b386cc32a8a5dfc482873acce904f7fe43a1632725645466baeeea19c69a3dd0133f5bb6e9907f4e305ad799edb701e6b32a",
 			"hash": "1254bba7601a178c4e9c52d2a9d1b386cc32a8a5dfc482873acce904f7fe43a1632725645466baeeea19c69a3dd0133f5bb6e9907f4e305ad799edb701e6b32a",
 			"url": "https://origami-images.ft.com/fticon/v1/skip-backward-30-1254bba7601a178c4e9c52d2a9d1b386cc32a8a5dfc482873acce904f7fe43a1632725645466baeeea19c69a3dd0133f5bb6e9907f4e305ad799edb701e6b32a"
 		},
@@ -381,6 +389,7 @@
 			"name": "skip-forward-30",
 			"extension": "svg",
 			"path": "svg/skip-forward-30.svg",
+			"previousHash": "edd59006caf246781783181de7da514a4d26a990b5c86d68f8e2fae445bce7384233bc4f4e06c0145e3009a93b81f337371f88e6d96649b75208bb52b0e619e2",
 			"hash": "edd59006caf246781783181de7da514a4d26a990b5c86d68f8e2fae445bce7384233bc4f4e06c0145e3009a93b81f337371f88e6d96649b75208bb52b0e619e2",
 			"url": "https://origami-images.ft.com/fticon/v1/skip-forward-30-edd59006caf246781783181de7da514a4d26a990b5c86d68f8e2fae445bce7384233bc4f4e06c0145e3009a93b81f337371f88e6d96649b75208bb52b0e619e2"
 		},
