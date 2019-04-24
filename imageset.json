@@ -371,6 +371,20 @@
 			"url": "https://origami-images.ft.com/fticon/v1/share-451dd84d54661f4a8efe0e8de5271edf2ad0b088f80cbecea6f5aac0c2966ff96430f63cea544ddac3a4abde57d52a922cb83ce1bb356b24d2b94a1c01a848ac"
 		},
 		{
+			"name": "skip-backward-30",
+			"extension": "svg",
+			"path": "svg/skip-backward-30.svg",
+			"hash": "1254bba7601a178c4e9c52d2a9d1b386cc32a8a5dfc482873acce904f7fe43a1632725645466baeeea19c69a3dd0133f5bb6e9907f4e305ad799edb701e6b32a",
+			"url": "https://origami-images.ft.com/fticon/v1/skip-backward-30-1254bba7601a178c4e9c52d2a9d1b386cc32a8a5dfc482873acce904f7fe43a1632725645466baeeea19c69a3dd0133f5bb6e9907f4e305ad799edb701e6b32a"
+		},
+		{
+			"name": "skip-forward-30",
+			"extension": "svg",
+			"path": "svg/skip-forward-30.svg",
+			"hash": "edd59006caf246781783181de7da514a4d26a990b5c86d68f8e2fae445bce7384233bc4f4e06c0145e3009a93b81f337371f88e6d96649b75208bb52b0e619e2",
+			"url": "https://origami-images.ft.com/fticon/v1/skip-forward-30-edd59006caf246781783181de7da514a4d26a990b5c86d68f8e2fae445bce7384233bc4f4e06c0145e3009a93b81f337371f88e6d96649b75208bb52b0e619e2"
+		},
+		{
 			"name": "speech-left",
 			"extension": "svg",
 			"path": "svg/speech-left.svg",
