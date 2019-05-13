@@ -1,5 +1,6 @@
 {
-    "description": "Financial Times icons",
+    "description": "Provides a comprehensive icon set for FT products",
+    "keywords": [ "icons", "images" ]
     "origamiType": "imageset",
     "origamiVersion": 1,
     "support": "https://github.com/Financial-Times/fticon/issues",
