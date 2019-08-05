@@ -2,7 +2,7 @@
   "name": "@financial-times/fticons",
   "version": "1.20.1",
   "engines": {
-    "node": ^10"
+    "node": "^10"
   },
   "scripts": {
     "build": "oist build-manifest --scheme fticon --source-directory svg --host https://origami-images.ft.com/ --scheme-version $npm_package_version",
