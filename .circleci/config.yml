@@ -5,7 +5,7 @@ jobs:
   # Publish the image set to S3
   publish:
     docker:
-      - image: circleci/node:latest
+      - image: circleci/node:lts
     steps:
       - checkout
       - run: git config --global user.email "origami.support@ft.com";
