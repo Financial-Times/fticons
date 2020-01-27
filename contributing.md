@@ -1,6 +1,6 @@
 # How to contribute to fticons
 
-Thank you for your interest in contributing to fticons! As our icons are used by a lot of different applications, we have a few constraints for new ones. If you aren't sure if your new icon meets any of these, please [raise an issue](http://github.com/financial-times/fticons/issues), or ask in the [#ft-origami slack channel](https://financialtimes.slack.com/messages/ft-origami/).
+Thank you for your interest in contributing to fticons! As our icons are used by a lot of different applications, we have a few constraints for new ones. If you aren't sure if your new icon meets any of these, please [raise an issue](http://github.com/financial-times/fticons/issues), or ask in the [#origami-support slack channel](https://financialtimes.slack.com/messages/origami-support/).
 Thank you!
 
 ## Adding or updating an icon
