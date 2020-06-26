@@ -1,4 +1,4 @@
-# Icon set for FT [![CircleCI](https://circleci.com/gh/Financial-Times/fticons.svg?style=svg)](https://circleci.com/gh/Financial-Times/fticons)
+# Icon set for FT 
 This is the (new) icon set for FT websites. It replaces the assets in [o-icons](http://github.com/financial-times/o-icons).
 
 The icons have been designed to work best at 40px width and height. At this size they align precisely with the pixel grid and do not appear blurry on screens with a DPR of 1 (non-retina screens).
