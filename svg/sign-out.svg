@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>image</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="image" fill="#000000">
+            <polygon id="Path" points="0.525 0.872 291.915 118.242 291.915 613.606 0.525 496.235"></polygon>
+            <polygon id="Path" points="364.404 215.073 480.454 215.073 480.454 140.015 579.515 244.973 480.455 350.255 480.455 272.526 364.403 272.526"></polygon>
+            <polygon id="Path" points="0.203 0.285 0.203 58.969 440.342 58.969 440.342 0.285"></polygon>
+            <path d="M381.658,29.627 L381.658,176.34 L440.342,176.34 L440.342,29.627 L381.658,29.627 Z M381.658,323.055 L381.658,440.426 L29.545,440.426 L29.545,499.111 L440.342,499.111 L440.342,323.055 L381.658,323.055 L381.658,323.055 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
