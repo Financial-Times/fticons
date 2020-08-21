@@ -1,12 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>image</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="image" fill="#000000">
-            <polygon id="Path" points="0.525 0.872 291.915 118.242 291.915 613.606 0.525 496.235"></polygon>
-            <polygon id="Path" points="364.404 215.073 480.454 215.073 480.454 140.015 579.515 244.973 480.455 350.255 480.455 272.526 364.403 272.526"></polygon>
-            <polygon id="Path" points="0.203 0.285 0.203 58.969 440.342 58.969 440.342 0.285"></polygon>
-            <path d="M381.658,29.627 L381.658,176.34 L440.342,176.34 L440.342,29.627 L381.658,29.627 Z M381.658,323.055 L381.658,440.426 L29.545,440.426 L29.545,499.111 L440.342,499.111 L440.342,323.055 L381.658,323.055 L381.658,323.055 Z" id="Shape"></path>
-        </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="sign-out (1).svg"
+   id="svg74"
+   version="1.1"
+   viewBox="0 0 1024 1024">
+  <metadata
+     id="metadata80">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs78" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg74"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="512"
+     inkscape:cx="512"
+     inkscape:zoom="0.65429688"
+     showgrid="true"
+     id="namedview76"
+     inkscape:window-height="878"
+     inkscape:window-width="1440"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff">
+    <inkscape:grid
+       id="grid82"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <title
+     id="title64">image</title>
+  <g
+     transform="translate(220.30508,199.59322)"
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="1"
+     stroke="none"
+     id="Page-1">
+    <g
+       fill="#000000"
+       id="image">
+      <polygon
+         points="0.525,0.872 291.915,118.242 291.915,613.606 0.525,496.235 "
+         id="Path" />
+      <polygon
+         points="480.454,215.073 480.454,140.015 579.515,244.973 480.455,350.255 480.455,272.526 364.403,272.526 364.404,215.073 "
+         id="polygon67" />
+      <polygon
+         points="0.203,0.285 0.203,58.969 440.342,58.969 440.342,0.285 "
+         id="polygon69" />
+      <path
+         id="Shape"
+         d="M 381.658,29.627 V 176.34 h 58.684 V 29.627 Z m 0,293.428 V 440.426 H 29.545 v 58.685 H 440.342 V 323.055 Z" />
     </g>
+  </g>
 </svg>
