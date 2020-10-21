@@ -1,7 +1,7 @@
 {
     "name": "@financial-times/fticons",
     "description": "Provides a comprehensive icon set for FT products",
-    "version": "100.0.0-1",
+    "version": "100.0.0-2",
     "main": "./imageset.json",
     "devDependencies": {
         "@financial-times/origami-image-set-tools": "^2.3.12"
