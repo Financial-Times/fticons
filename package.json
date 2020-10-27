@@ -7,6 +7,6 @@
         "@financial-times/origami-image-set-tools": "^2.3.12"
     },
     "publishConfig": {
-        "registry": "http://localhost:4873"
+        "registry": "https://origami-npm-registry-prototype.herokuapp.com"
     }
 }
