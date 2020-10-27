@@ -1,12 +1,23 @@
 {
-    "name": "@financial-times/fticons",
-    "version": "100.0.0-8",
-    "description": "Provides a comprehensive icon set for FT products",
-    "main": "./imageset.json",
-    "devDependencies": {
-        "@financial-times/origami-image-set-tools": "^2.3.12"
-    },
-    "publishConfig": {
-        "registry": "https://origami-npm-registry-prototype.herokuapp.com"
-    }
+  "name": "@financial-times/fticons",
+  "version": "100.0.0-10",
+  "description": "Provides a comprehensive icon set for FT products",
+  "keywords": [],
+  "homepage": "https://github.com/Financial-Times/fticons#readme",
+  "bugs": {
+    "url": "https://github.com/Financial-Times/fticons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Financial-Times/fticons.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "./imageset.json",
+  "devDependencies": {
+    "@financial-times/origami-image-set-tools": "^2.3.12"
+  },
+  "publishConfig": {
+    "registry": "https://origami-npm-registry-prototype.herokuapp.com"
+  }
 }
