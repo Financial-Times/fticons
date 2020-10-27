@@ -1,6 +1,6 @@
 {
     "name": "@financial-times/fticons",
-    "version": "100.0.0-7",
+    "version": "100.0.0-8",
     "description": "Provides a comprehensive icon set for FT products",
     "main": "./imageset.json",
     "devDependencies": {
