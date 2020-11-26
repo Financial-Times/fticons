@@ -1,6 +1,6 @@
 {
   "name": "@financial-times/fticons",
-  "version": "1.20.8",
+  "version": "1.21.0",
   "scripts": {
     "build": "oist build-manifest --scheme fticon --source-directory svg --host https://origami-images.ft.com/ --scheme-version $npm_package_version",
     "upload-to-s3": "npm run upload-to-s3:eu && npm run upload-to-s3:us",

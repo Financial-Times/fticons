@@ -127,8 +127,8 @@
 			"extension": "svg",
 			"path": "svg/edit.svg",
 			"previousHash": "3261f954b055a61201c2b21808a73bbeb772ba9200ac2f9523c6225838267b9b7b1c5245785ceaf6c7318a4fb205517f6d8f2d457b23b15eb7cd42c090e90ef2",
-			"hash": "3261f954b055a61201c2b21808a73bbeb772ba9200ac2f9523c6225838267b9b7b1c5245785ceaf6c7318a4fb205517f6d8f2d457b23b15eb7cd42c090e90ef2",
-			"url": "https://origami-images.ft.com/fticon/v1/edit-3261f954b055a61201c2b21808a73bbeb772ba9200ac2f9523c6225838267b9b7b1c5245785ceaf6c7318a4fb205517f6d8f2d457b23b15eb7cd42c090e90ef2"
+			"hash": "b727a159c659b04a7e762451515ee496d5d60f5c61595a2decd177520a34a81f22b63d52e761412ab621d95aab491a9cc26efca61b3361533c0595e9d9acaea3",
+			"url": "https://origami-images.ft.com/fticon/v1/edit-b727a159c659b04a7e762451515ee496d5d60f5c61595a2decd177520a34a81f22b63d52e761412ab621d95aab491a9cc26efca61b3361533c0595e9d9acaea3"
 		},
 		{
 			"name": "first",
@@ -345,6 +345,13 @@
 			"previousHash": "1ee35cdb83cf306f2e2d2f9715ba18c75f9f359410c5941fc1d8e7a48e15b2993938412a2a88995edb279e4eeb879d5ab56d9acf8411952bf9476a09ae2ae7b4",
 			"hash": "1ee35cdb83cf306f2e2d2f9715ba18c75f9f359410c5941fc1d8e7a48e15b2993938412a2a88995edb279e4eeb879d5ab56d9acf8411952bf9476a09ae2ae7b4",
 			"url": "https://origami-images.ft.com/fticon/v1/refresh-1ee35cdb83cf306f2e2d2f9715ba18c75f9f359410c5941fc1d8e7a48e15b2993938412a2a88995edb279e4eeb879d5ab56d9acf8411952bf9476a09ae2ae7b4"
+		},
+		{
+			"name": "scroll-to",
+			"extension": "svg",
+			"path": "svg/scroll-to.svg",
+			"hash": "ff0d5979ed430d4dcfd22d4ce1c09e4c0d7d15d680360b8fea8bb5c0a19efef68d2f45f424f24d3a53f53c79fb6ecbc77752f97ba0cdeb88b00a56605ed6c00d",
+			"url": "https://origami-images.ft.com/fticon/v1/scroll-to-ff0d5979ed430d4dcfd22d4ce1c09e4c0d7d15d680360b8fea8bb5c0a19efef68d2f45f424f24d3a53f53c79fb6ecbc77752f97ba0cdeb88b00a56605ed6c00d"
 		},
 		{
 			"name": "search",
