@@ -24,8 +24,6 @@ If you want to add or update an icon, please open a pull request, making sure th
 1. Icons must have been run through an SVG compression service (such as [SVGOMG](https://jakearchibald.github.io/svgomg/))
 1. Icons must have been tested with the [Responsive Image Service](https://www.ft.com/__origami/service/image/v2/docs/url-builder)'s SVG -> PNG conversion. [How do I do this?](#how-to-test-an-icon-with-the-image-service)
 1. Icons must have been tested with the Image Service's tinting option. [How do I do this?](#how-to-test-an-icon-with-the-image-service)
-1. Icons should have a bounding box of 1024. This is because of a quirk with the Image Service, whereby a conversion from SVG to PNG will be very blurry if the _source_ SVG has a small viewBox.
-
 
 ### Naming conventions:
 
