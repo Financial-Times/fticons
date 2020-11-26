@@ -13,7 +13,6 @@
 - [ ] Icons should have square rather than rounded corners where suitable
 - [ ] Icons must be SVG v1.1
 - [ ] Icons must have been run through an SVG compression service (such as SVGOMG)
-- [ ] Icons should have a bounding box of 1024.
 - [ ] Icon names must be made up only of lowecase a-z, or a hyphen
 - [ ] Icon names must include the .svg file extension
 
