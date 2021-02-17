@@ -179,6 +179,20 @@
 			"url": "https://origami-images.ft.com/fticon/v1/ipad-f712a01a7dba58237040aa2d989663d0f1cc03931ee7693a4d25dec59c956a690e43a0c83afdc07588643aa5dbbf11cc60061a930596443195d38e39a92d3fad"
 		},
 		{
+			"name": "label-outline",
+			"extension": "svg",
+			"path": "svg/label-outline.svg",
+			"hash": "6080708153a969b0f44e0b17e428d52b5b51a47d772c3f93d226d0b4aa6ff518bb174715bb86ec8f70e03e9f6d1d8e13c2b8c83830573a68397f22e7e0ce3d16",
+			"url": "https://origami-images.ft.com/fticon/v1/label-outline-6080708153a969b0f44e0b17e428d52b5b51a47d772c3f93d226d0b4aa6ff518bb174715bb86ec8f70e03e9f6d1d8e13c2b8c83830573a68397f22e7e0ce3d16"
+		},
+		{
+			"name": "label",
+			"extension": "svg",
+			"path": "svg/label.svg",
+			"hash": "55d428279e6326ae691869f8010fe80c7b264199b3256d9ed173c0fee448d970e8f13afec0a11f8fe1d72d2fd741479bb5e28522dac52a0acf5f52e0394a0681",
+			"url": "https://origami-images.ft.com/fticon/v1/label-55d428279e6326ae691869f8010fe80c7b264199b3256d9ed173c0fee448d970e8f13afec0a11f8fe1d72d2fd741479bb5e28522dac52a0acf5f52e0394a0681"
+		},
+		{
 			"name": "last",
 			"extension": "svg",
 			"path": "svg/last.svg",
@@ -345,6 +359,13 @@
 			"previousHash": "1ee35cdb83cf306f2e2d2f9715ba18c75f9f359410c5941fc1d8e7a48e15b2993938412a2a88995edb279e4eeb879d5ab56d9acf8411952bf9476a09ae2ae7b4",
 			"hash": "1ee35cdb83cf306f2e2d2f9715ba18c75f9f359410c5941fc1d8e7a48e15b2993938412a2a88995edb279e4eeb879d5ab56d9acf8411952bf9476a09ae2ae7b4",
 			"url": "https://origami-images.ft.com/fticon/v1/refresh-1ee35cdb83cf306f2e2d2f9715ba18c75f9f359410c5941fc1d8e7a48e15b2993938412a2a88995edb279e4eeb879d5ab56d9acf8411952bf9476a09ae2ae7b4"
+		},
+		{
+			"name": "restore",
+			"extension": "svg",
+			"path": "svg/restore.svg",
+			"hash": "4e78173c7130507e077062412ec993aff86dee4149c907836d1052d4d604699cdcb9d3be645fea7fe5cd6b4adb3b005e23927c9c80497be4b6ca4c30d6dfd991",
+			"url": "https://origami-images.ft.com/fticon/v1/restore-4e78173c7130507e077062412ec993aff86dee4149c907836d1052d4d604699cdcb9d3be645fea7fe5cd6b4adb3b005e23927c9c80497be4b6ca4c30d6dfd991"
 		},
 		{
 			"name": "scroll-to",
