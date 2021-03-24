@@ -107,6 +107,13 @@
 			"url": "https://origami-images.ft.com/fticon/v1/cross-78b9c39161bb6e59353734caf04527ab334054a693395c1bc897ba6c91343d1346977a4d6c3ef6a8eb6c0752e5fa866ed0baab687fb408f430ace6f9ee22c840"
 		},
 		{
+			"name": "data",
+			"extension": "svg",
+			"path": "svg/data.svg",
+			"hash": "94ed2b797dc945971318f9b81452d29973ef7f036797e85424b2f3019cc2181eba6a21009bcf6a077b4b47d54c86fd1c948d047346e1a9f0d9ea40e530d074fe",
+			"url": "https://origami-images.ft.com/fticon/v1/data-94ed2b797dc945971318f9b81452d29973ef7f036797e85424b2f3019cc2181eba6a21009bcf6a077b4b47d54c86fd1c948d047346e1a9f0d9ea40e530d074fe"
+		},
+		{
 			"name": "dollar",
 			"extension": "svg",
 			"path": "svg/dollar.svg",
